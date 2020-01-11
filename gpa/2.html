@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Result Calculator (CGPA) </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/themes/flatme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/themes/jquery.mobile.icons.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.js"></script>
+	<style>
+.cp_cff_pastel #fbuilder{padding: 20px;background: #f4f7f8;border-radius: 8px;color:#333;}.cp_cff_pastel #fbuilder input[type="text"], .cp_cff_pastel #fbuilder input[type="file"], .cp_cff_pastel #fbuilder input[type="date"], .cp_cff_pastel #fbuilder input[type="password"], .cp_cff_pastel #fbuilder input[type="datetime"], .cp_cff_pastel #fbuilder input[type="email"], .cp_cff_pastel #fbuilder input[type="number"], .cp_cff_pastel #fbuilder input[type="search"], .cp_cff_pastel #fbuilder input[type="time"], .cp_cff_pastel #fbuilder input[type="url"], .cp_cff_pastel #fbuilder textarea, .cp_cff_pastel #fbuilder select {border: none;border-radius: 4px;margin: 0;outline: 0;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;background-color: #e8eeef;color:#8a97a0;-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;padding:5px;}.cp_cff_pastel #fbuilder input[type="date"]:focus, .cp_cff_pastel #fbuilder input[type="file"]:focus, .cp_cff_pastel #fbuilder input[type="text"]:focus, .cp_cff_pastel #fbuilder input[type="password"]:focus, .cp_cff_pastel #fbuilder input[type="datetime"]:focus, .cp_cff_pastel #fbuilder input[type="email"]:focus, .cp_cff_pastel #fbuilder input[type="number"]:focus, .cp_cff_pastel #fbuilder input[type="search"]:focus, .cp_cff_pastel #fbuilder input[type="time"]:focus, .cp_cff_pastel #fbuilder input[type="url"]:focus, .cp_cff_pastel #fbuilder textarea:focus, .cp_cff_pastel #fbuilder select:focus{background: #d2d9dd;}.cp_cff_pastel #fbuilder select{-webkit-appearance: menulist-button;height:35px;}.cp_cff_pastel #fbuilder .pbSubmit, .cp_cff_pastel #fbuilder .pbreak .pbPrevious, .cp_cff_pastel #fbuilder .pbreak .pbNext, .cp_cff_pastel #fbuilder input[type=submit], .cp_cff_pastel #fbuilder input[type=button], .cp_cff_pastel #fbuilder input[type=reset]{color: #FFF;background: #1abc9c;text-align: center;font-style: normal;border: 1px solid #16a085;border-width: 1px 1px 3px;}.cp_cff_pastel #fbuilder .pbSubmit:hover, .cp_cff_pastel #fbuilder .pbreak .pbPrevious:hover, .cp_cff_pastel #fbuilder .pbreak .pbNext:hover, .cp_cff_pastel #fbuilder input[type=submit]:hover, .cp_cff_pastel #fbuilder input[type=button]:hover, .cp_cff_pastel #fbuilder input[type=reset]:hover{background: #109177;}.cp_cff_pastel #fbuilder .pbEnd .pbNext, .cp_cff_pastel #fbuilder .pb0 .pbPrevious{display:none;}.cp_cff_pastel #fbuilder fieldset, .cp_cff_pastel #fbuilder fieldset legend{border:1px solid #e8eeef;padding: 10px;border-radius: 8px;}.cp_cff_pastel #fbuilder fieldset legend{padding: 5px 10px;background:#d2d9dd;border-radius: 4px;}.cp_cff_pastel #fbuilder span.uh{font-size: 17px;}.cp_cff_pastel #fbuilder .fields:not(.section_breaks) span.uh{color: #C0C0C0;}.cp_cff_pastel #fbuilder .r{color:#1abc9c;}.cp_cff_pastel #fbuilder .ui-slider-handle{background:#1abc9c;border:0;border-radius:15px;height: .8em;width: .8em;}.cp_cff_pastel #fbuilder .dfield.slider-container{padding-left: 10px !important;border-radius: 10px;padding-right: 10px !important;padding-top:5px;}.cp_cff_pastel #fbuilder .slider{background: #e8eeef !important;border-radius: 10px;border:0;height: .3em;}.cp_cff_pastel #fbuilder .ui-slider-range{background: #d2d9dd;}.cp_cff_pastel #fbuilder .fields.section_breaks{border:0;border-radius: 4px;background: #d2d9dd;padding-left:10px;padding-right:10px;}.cp_cff_pastel #fbuilder .fields.section_breaks .section_break{border:0;}.cp_cff_pastel #fbuilder .discount-container{margin-top:10px;font-weight:bold;}
+
+		hr { 
+		    display: block;
+		    margin-top: 0px;
+		    margin-bottom: 0px;
+		    margin-left: 5px;
+		    margin-right: 5px;
+		    border-style: inset;
+		    border-width: 1px;
+			}
+			a{
+				text-decoration: none;
+			}
+
+	</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+<div data-role="page" id="p1" data-theme="c"><!-- p1 Page start -->
+
+
+
+<div data-role="header" data-position="fixed">	
+			<a href="index.html" data-icon="home" data-iconpos="notext"></a>
+			<h2>1ST YEAR 2ND SEMESTER</h2>
+			<a href="info.html" data-icon="info" data-iconpos="notext"></a>
+		</div>
+
+
+		<div data-role="content">
+			
+			
+	
+
+<article>
+
+<script type='text/javascript' src='js/all.js'></script>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+     var cp_calculatedfieldsf_fbuilder_config_1={"obj":{"pub":true,"identifier":"_1","messages":{"required":"This field is required.","email":"Please enter a valid email address.","datemmddyyyy":"Please enter a valid date with this format(mm\/dd\/yyyy)","dateddmmyyyy":"Please enter a valid date with this format(dd\/mm\/yyyy)","number":"Please enter a valid number.","digits":"Please enter only digits.","max":"Please enter a value less than or equal to {0}.","min":"Please enter a value greater than or equal to {0}.","previous":"Previous","next":"Next","pageof":"Page {0} of {0}","minlength":"Please enter at least {0} characters.","maxlength":"Please enter no more than {0} characters.","equalTo":"Please enter the same value again.","accept":"Please enter a value with a valid extension.","upload_size":"The file you've chosen is too big, maximum is {0} kB."}}};     /* ]]&gt; */
+    </script>
+
+<form name="cp_calculatedfieldsf_pform_1" id="cp_calculatedfieldsf_pform_1" action="?" method="post" enctype="multipart/form-data" ><input type="hidden" name="cp_calculatedfieldsf_id" value="9" /><pre style="display:none;"><!--noptimize--><script>form_structure_1=[[{"form_identifier":"","name":"fieldname1","shortlabel":"","index":0,"ftype":"fdropdown","userhelp":"Data Structure","userhelpTooltip":false,"csslayout":"","title":"CSE - 121","size":"medium","required":true,"toSubmit":"text","choiceSelected":"A+ - 4.00","showDep":false,"choices":["A+","A","A-","B+","B","B-","C+","C","D","F"],"choicesVal":["4.00","3.75","3.50","3.25","3.00","2.75","2.50","2.25","2.00","0.00"],"choicesDep":[[],[],[],[],[],[],[],[],[],[]],"fBuild":{},"parent":""},{"form_identifier":"","name":"fieldname6","shortlabel":"","index":1,"ftype":"fdropdown","userhelp":"Data Structure Practical","userhelpTooltip":false,"csslayout":"","title":"CSE - 122","size":"medium","required":true,"toSubmit":"text","choiceSelected":"A+ - 4.00","showDep":false,"choices":["A+","A","A-","B+","B","B-","C+","C","D","F"],"choicesVal":["4.00","3.75","3.50","3.25","3.00","2.75","2.50","2.25","2.00","0.00"],"choicesDep":[[],[],[],[],[],[],[],[],[],[]],"fBuild":{},"parent":""},{"form_identifier":"","name":"fieldname5","shortlabel":"","index":2,"ftype":"fdropdown","userhelp":"Introduction to Electrical Engineering","userhelpTooltip":false,"csslayout":"","title":"CSE - 123","size":"medium","required":true,"toSubmit":"text","choiceSelected":"A+ - 4.00","showDep":false,"choices":["A+","A","A-","B+","B","B-","C+","C","D","F"],"choicesVal":["4.00","3.75","3.50","3.25","3.00","2.75","2.50","2.25","2.00","0.00"],"choicesDep":[[],[],[],[],[],[],[],[],[],[]],"fBuild":{},"parent":""},{"form_identifier":"","name":"fieldname4","shortlabel":"","index":3,"ftype":"fdropdown","userhelp":"Introduction of Electrical Engineering Practical","userhelpTooltip":false,"csslayout":"","title":"CSE - 124","size":"medium","required":true,"toSubmit":"text","choiceSelected":"A+ - 4.00","showDep":false,"choices":["A+","A","A-","B+","B","B-","C+","C","D","F"],"choicesVal":["4.00","3.75","3.50","3.25","3.00","2.75","2.50","2.25","2.00","0.00"],"choicesDep":[[],[],[],[],[],[],[],[],[],[]],"fBuild":{},"parent":""},{"form_identifier":"","name":"fieldname3","shortlabel":"","index":4,"ftype":"fdropdown","userhelp":"Integral Calculus and Differential Equation","userhelpTooltip":false,"csslayout":"","title":"CSE - 125","size":"medium","required":true,"toSubmit":"text","choiceSelected":"A+ - 4.00","showDep":false,"choices":["A+","A","A-","B+","B","B-","C+","C","D","F"],"choicesVal":["4.00","3.75","3.50","3.25","3.00","2.75","2.50","2.25","2.00","0.00"],"choicesDep":[[],[],[],[],[],[],[],[],[],[]],"fBuild":{},"parent":""},{"form_identifier":"","name":"fieldname2","shortlabel":"","index":5,"ftype":"fdropdown","userhelp":"Statistics and Probability","userhelpTooltip":false,"csslayout":"","title":"CSE - 126","size":"medium","required":true,"toSubmit":"text","choiceSelected":"A+ - 4.00","showDep":false,"choices":["A+","A","A-","B+","B","B-","C+","C","D","F"],"choicesVal":["4.00","3.75","3.50","3.25","3.00","2.75","2.50","2.25","2.00","0.00"],"choicesDep":[[],[],[],[],[],[],[],[],[],[]],"fBuild":{},"parent":""},{"form_identifier":"","name":"fieldname8","shortlabel":"","index":6,"ftype":"fdropdown","userhelp":"Discrete Mathematics","userhelpTooltip":false,"csslayout":"","title":"CSE - 127","size":"medium","required":true,"toSubmit":"text","choiceSelected":"A+ - 4.00","showDep":false,"choices":["A+","A","A-","B+","B","B-","C+","C","D","F"],"choicesVal":["4.00","3.75","3.50","3.25","3.00","2.75","2.50","2.25","2.00","0.00"],"choicesDep":[[],[],[],[],[],[],[],[],[],[]],"fBuild":{},"parent":""},{"form_identifier":"","name":"fieldname7","shortlabel":"","index":7,"ftype":"fCalculated","userhelp":"","userhelpTooltip":false,"csslayout":"","title":"YOUR GPA","predefined":"","required":false,"size":"small","toolbar":"default|mathematical","eq":"(fieldname1*3+fieldname6*1.5+fieldname5*3+fieldname4*1.5+fieldname3*3+fieldname2*3+fieldname8*3)\/18","suffix":"","prefix":"","decimalsymbol":".","groupingsymbol":"","dependencies":[{"rule":"","complex":false,"fields":[""]}],"readonly":true,"hidefield":false,"fBuild":{},"parent":"","predefinedClick":false}],{"0":{"title":"CSE 2nd SEMESTER (NU)","description":"INPUT YOUR RESULT AS SUBJECT CODE","formlayout":"right_aligned","formtemplate":"cp_cff_pastel","evalequations":1,"autocomplete":1,"persistence":0,"customstyles":""},"formid":"cp_calculatedfieldsf_pform_1"}];</script><!--/noptimize--></pre>
+<div id="fbuilder">
+  <div id="fbuilder_1">
+      <div id="formheader_1"></div>
+      <div id="fieldlist_1"></div>
+  </div>
+</div>
+<div class="clearer"></div>
+</form>
+
+</article>
+
+	
+			
+			
+		</div>
+	</div><!-- p1 Page end -->	
+	
+	</div>
+	
+	
+	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+	
+</body>
+</html>
